@@ -7,7 +7,6 @@ export const SideBarContainer = styled.div`
      color: white;
      padding: 0px;
      font-family: sans;
-
      font-weight: bold;
 `;
 

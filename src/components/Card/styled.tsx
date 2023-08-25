@@ -21,8 +21,10 @@ export const CardContainer = styled.div`
      border-radius: 7px 7px 7px 7px;
      width: 270px;
      height: 450px;
-     
      overflow: hidden;
+     &:hover{
+          scale: 1.1;
+     }
 `;
 
 export const ImgContainer = styled.img`
@@ -34,6 +36,7 @@ export const ImgContainer = styled.img`
 export const ImgDetails = styled.img`
      margin-top: 10px;
      height: 40px;
+     cursor: pointer;
 `;
 
 export const ParagrafoContainer = styled.p`
